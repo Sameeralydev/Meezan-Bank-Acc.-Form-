@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(assets/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(50%);
+  /* background-color: #3e2562; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100%; */
+}
+.bank-logo {
+  width: 7vw;
+  height: 14vh;
+}
+.bank-logo img {
+  height: 100%;
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.3vh 4vh;
+  /* background-color: rgba(255, 255, 255, 0.397); */
+  width: 40vw;
+  height: auto;
+}
+.form-title {
+  padding-bottom: 3vh;
+}
+.acc-salary {
+  display: flex;
+  gap: 3vh;
+  width: 100%;
+  justify-content: space-between;
+}
+.acc-type {
+  width: 50%;
+}
+.acc-type select {
+  width: 97%;
+  height: 4.5vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.salary {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.salary input {
+  padding: 0.2vh 0.5vh;
+  width: 97%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.name-wrapper {
+  padding-top: 2vh;
+  display: flex;
+  gap: 3vh;
+  width: 100%;
+  justify-content: space-between;
+}
+.fname {
+  width: 50%;
+}
+.fname input {
+  padding: 0.2vh 0.5vh;
+  width: 97%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.lname input {
+  padding: 0.2vh 0.5vh;
+  width: 97%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.lname {
+  width: 50%;
+}
+.phone-cnic {
+  padding-top: 2vh;
+  display: flex;
+  gap: 3vh;
+  width: 100%;
+  justify-content: space-between;
+}
+.phone {
+  width: 50%;
+}
+.phone input {
+  padding: 0.2vh 0.5vh;
+  width: 97%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.cnic {
+  width: 50%;
+}
+.cnic input {
+  padding: 0.2vh 0.5vh;
+  width: 97%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.address-wrapper {
+  padding-top: 2vh;
+  gap: 3vh;
+  width: 100%;
+  justify-content: space-between;
+}
+.add-1 input {
+  padding: 0.2vh 0.5vh;
+  width: 98.5%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.add-2 {
+  padding-top: 2vh;
+}
+.add-2 input {
+  padding: 0.2vh 0.5vh;
+  width: 98.5%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.city-region {
+  padding-top: 2vh;
+  display: flex;
+  gap: 3vh;
+  width: 100%;
+  justify-content: space-between;
+}
+.city {
+  width: 50%;
+}
+.city input {
+  padding: 0.2vh 0.5vh;
+  width: 97%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.region {
+  width: 50%;
+}
+.region input {
+  padding: 0.2vh 0.5vh;
+  width: 97%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.code-country {
+  padding-top: 2vh;
+  display: flex;
+  gap: 3vh;
+  width: 100%;
+  justify-content: space-between;
+}
+.zip-code {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+.zip-code input {
+  padding: 0.2vh 0.5vh;
+  width: 97%;
+  height: 4.4vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(30, 29, 29, 0.9);
+}
+.country-select {
+  width: 50%;
+}
+.country-select select {
+  width: 97%;
+  height: 4.5vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.btns {
+  padding-right: 1vh;
+  padding-top: 2vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3vh;
+}
+.btn1 {
+  height: 4.5vh;
+  width: 5vw;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.btn1:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.btn2 {
+  height: 4.5vh;
+  width: 5vw;
+  border: none;
+  background-color: #3e2562;
+  color: white;
+}
+.btn2 :active {
+  background-color: white;
+  border: 1px solid #3e2562;
+  color: #3e2562;
+}
+.btn3 {
+  height: 4.5vh;
+  width: 5vw;
+  border: none;
+  background-color: #3e2562;
+  color: white;
+}
+.btn3 :active {
+  background-color: white;
+  border: 1px solid #3e2562;
+  color: #3e2562;
+}
+.btn4 {
+  height: 4.5vh;
+  width: 5vw;
+  border: none;
+  background-color: rgb(15, 130, 15);
+  color: white;
+}
+.btn4 :active {
+  background-color: white;
+  border: 1px solid rgb(15, 130, 15);
+  color: rgb(15, 130, 15);
+}
+h2 {
+  color: white;
+  font-size: 3vh;
+}
+h4 {
+  color: white;
+  font-size: 2vh;
+}

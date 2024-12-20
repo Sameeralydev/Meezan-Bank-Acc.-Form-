@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>JS Practice</title>
+  </head>
+  <body>
+    <div class="bank-logo"><img src="assets/banklogo1.png" alt="" /></div>
+    <div class="form">
+      <div class="form-title"><h2>Meezan Bank Account Page</h2></div>
+      <div class="acc-salary">
+        <div class="acc-type">
+          <label for="acc-type"><h4>Account Type</h4></label>
+          <select id="acctype">
+            <option value="Digital Account">Digital Account</option>
+            <option value="Savings Account">Savings Account</option>
+            <option value="Current Account">Current Account</option>
+            <option value="General Account">General Account</option>
+          </select>
+        </div>
+        <div class="salary">
+          <label for="salary"><h4>Monthly salary</h4></label>
+          <input type="number" id="m-salary" />
+        </div>
+      </div>
+      <div class="name-wrapper">
+        <div class="fname">
+          <label for="fname"><h4>First Name</h4></label
+          ><input type="text" placeholder="First" id="firstname" />
+        </div>
+        <div class="lname">
+          <label for="lname"><h4>Last Name</h4></label
+          ><input type="text" placeholder="Last " id="lastname" />
+        </div>
+      </div>
+      <div class="phone-cnic">
+        <div class="phone">
+          <label for="phone"><h4>Phone No.</h4></label>
+          <input type="number" placeholder="### ### ###" id="phone"/>
+        </div>
+        <div class="cnic">
+          <label for="cnic"><h4>CNIC NO.</h4></label
+          ><input type="number" placeholder="####-#######-#" id="cnic"/>
+        </div>
+      </div>
+      <div class="address-wrapper">
+        <div class="add-1">
+          <label for="address1"><h4>Address</h4></label
+          ><input type="text" placeholder="Address here!" id="add-1"/>
+        </div>
+        <div class="add-2">
+          <label for="address2"><h4>Address line 2</h4></label
+          ><input type="text" placeholder="Here!" id="add-2" />
+        </div>
+      </div>
+      <div class="city-region">
+        <div class="city">
+          <label for="city"><h4>City</h4></label
+          ><input type="text" placeholder="City" id="city"/>
+        </div>
+        <div class="region">
+          <label for="region"><h4>Region</h4></label
+          ><input type="text" placeholder="Region" id="region"/>
+        </div>
+      </div>
+      <div class="code-country">
+        <div class="zip-code">
+          <label for="zip-code"><h4>Zip/Postal code</h4></label
+          ><input type="number" placeholder="Zip/Postal code" id="zipcode" />
+        </div>
+        <div class="country-select">
+          <label for="country"><h4>Country</h4></label>
+          <select id="country">
+            <option value="Pakistan">Pakistan</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="India">India</option>
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="England">England</option>
+            <option value="China">China</option>
+            <option value="Russia">Russia</option>
+          </select>
+        </div>
+      </div>
+      <div class="btns">
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Attention!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Information required for opening a new account is submitted. 
+              </div>
+              <div class="modal-footer">
+                <button class="btn3">Go Ahead</button>
+                <button onclick="document.location='index2.html'" class="btn4 btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Preview</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn1">Back</button>
+        <button onclick="displayInfo(),displayInfo1(),displayInfo2(),displayInfo3(),displayInfo4(),displayInfo5()" class="btn2 btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Submit</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>
