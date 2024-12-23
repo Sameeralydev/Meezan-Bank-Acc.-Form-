@@ -29,7 +29,7 @@ body {
   padding: 0.3vh 4vh;
   /* background-color: rgba(255, 255, 255, 0.397); */
   width: 40vw;
-  height: auto;
+  height: 86vh;
 }
 .form-title {
   padding-bottom: 3vh;
@@ -44,6 +44,7 @@ body {
   width: 50%;
 }
 .acc-type select {
+  margin-top: -.5vh;
   width: 97%;
   height: 4.5vh;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -188,8 +189,9 @@ body {
   width: 50%;
 }
 .country-select select {
+  margin-top: -.6vh;
   width: 97%;
-  height: 4.5vh;
+  height: 4.3vh;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .btns {
